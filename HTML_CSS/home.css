@@ -1,0 +1,151 @@
+body {
+    
+     background-image: url('ch.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+    
+}
+
+body bgimg {
+    opacity: 20px;
+}
+header {
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10%;
+    border-radius: 0px;
+}
+
+li,a,button {
+    font-family: "Montserrat" , sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+h3{
+    color: skyblue;
+}
+
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: ne;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+   background-color: rgba(0,136,169,8);
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    max-width: 175px;
+    
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 20px;
+    justify-content: space-around;
+    
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container {
+width: 100%;
+  margin: auto;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 70px;
+    font-size: 80px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+    margin: auto;
+  align-items: center;
+}
+
+p{
+    font-size: 20px;
+    color: black;
+    padding: 25px;
+    line-height: 1.2;
+}
+.row::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.col-2 {width: 100%;}
+
+.col-3 {width: 97%;}
+
+.col-4 {width: 33.33%;}
+
+
+
+
+div.box {
+    text-align: center;
+    margin: 15px;
+    
+    background-color: white;
+    box-shadow: 5px 0px 7px 2px rgba(0,0,0,0.15);
+    
+}
+
+div.br {
+    border-radius: 7px ;
+    box-shadow: 5px 0px 7px 2px rgba(0,0,0,0.15);
+}
+div.fcolor {
+     border-radius: 7px 7px 7px 7px;
+    padding: 25px;
+    background-color: whitesmoke;
+    font-size: 40px;
+    color: #fff;
+}
+
+img {
+    border-radius: 7px;
+    width: 80%;
+    height:70%;
+}
+
+  .pd{
+    padding: 24px;
+}   
